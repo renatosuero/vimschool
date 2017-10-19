@@ -1,0 +1,9 @@
+baseURL = "http://vimschool.com/"
+languageCode = "en-us"
+title = "Vimschool"
+theme = "learn"
+
+# For search functionnality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
