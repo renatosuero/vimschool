@@ -46,6 +46,12 @@ url = "https://github.com/renatosuero/vimschool"
 weight = 10
 
 [[menu.shortcuts]] 
+name = "<i class='fa fa-globe'></i> Vim online"
+identifier = "vo"
+url = "http://www.vim.org/"
+weight = 15
+
+[[menu.shortcuts]] 
 name = "<i class='fa fa-bullhorn'></i> Credits"
 identifier = "cr"
 url = "/credits"
