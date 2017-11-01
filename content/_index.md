@@ -27,6 +27,8 @@ Vim extends the basic "vi" functionality with additional features, such as:
 * Extensibility through plugins
 * and more !
 
+![Basic Vim](/images/vim-none.png)
+
 So, if you are interested, jump to the first section and happy leaning!
 
 ---
