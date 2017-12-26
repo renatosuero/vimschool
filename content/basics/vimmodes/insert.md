@@ -17,4 +17,5 @@ Insert Mode is where you can write/edit your documments. There are some keys to 
 
 ------------
 
-> Just to remember, if you need to move between words or lines, you need to move to **Normal Mode**  
+> Just to remember, if you need to move between words or lines, you need to move to **Normal Mode**.  
+> To save file you need to type **ESC** *(Normal Mode)* then type **:w** and the most important to quit you type **:q**.  
