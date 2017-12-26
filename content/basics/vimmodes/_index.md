@@ -5,7 +5,7 @@ weight = 5
 +++
 
 The first thing that you need to know is, why Vim has modes... So when vim was created didn't exist GUI and mouse.
-Now let's think how I can write something or navigate in the lines... That's why you need to have modes and you need to know how to use it.
+Now let's think how I can write something or navigate in the lines... That's why you need to have modes and you need to know how to use it.  
 Let's go to understand theses modes.  
 
 ------------
@@ -14,3 +14,6 @@ Let's go to understand theses modes.
 - **Visual Mode**: here is where you can select text.   
 - **Insert Mode**: here is where you can edit your text.  
 
+------------
+
+> An important tip, look at the bottom vim and you'll see the mode where you are.You will see **INSERT** or **VISUAL** on left side, when you won't see it's because you are in **NORMAL/COMMAND** mode.  
