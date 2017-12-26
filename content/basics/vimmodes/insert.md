@@ -4,7 +4,7 @@ date =  2017-10-30T10:48:58-04:00
 weight = 6
 +++
 
-Insert Mode is where you can write/edit your documments. There are some keys to enter in this mode, let's se them:  
+Insert Mode is where you can write/edit your documments. There are some keys to enter in this mode, let's see them:  
 
 | Key     | Description   																											|
 |---------|---------------------------------------------------------------------|
