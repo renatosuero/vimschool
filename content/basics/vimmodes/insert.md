@@ -4,18 +4,18 @@ date =  2017-10-30T10:48:58-04:00
 weight = 6
 +++
 
-Insert Mode is where you can write/edit your documments. There are some keys to enter in this mode, let's see them:  
+Insert Mode is where you can write/edit your documments. From Normal/Command mode, you can use one of the following keys to switch to Insert mode:  
 
 | Key     | Description   																											|
 |---------|---------------------------------------------------------------------|
-| **i**   | This key enter in insert mode before under the cursor								|
-| **I**   | This key enter in insert mode begin line under the cursor						|
-| **a**   | This key enter in insert mode after under the cursor 								|
-| **A**   | This key enter in insert mode end line under the cursor  						|
-| **o**   | This key enter in insert mode on the next line under the cursor  		|
-| **O**   | This key enter in insert mode on the previous line under the cursor |
+| **i**   | This key switches to insert mode and allows you to edit text right before the current cursor position |
+| **I**   | This key switches to insert mode and places the cursor at the beginning of the line  |
+| **a**   | This key switches to insert mode and allows you to edit text right after the current cursor position|
+| **A**   | This key switches to insert mode and places the cursor at the end of the line|
+| **o**   | This key switches to insert mode adding a line below the current one|
+| **O**   | This key switches to insert mode adding a line above the current one|
 
 ------------
 
-> Just to remember, if you need to move between words or lines, you need to move to **Normal Mode**.  
-> To save file you need to type **ESC** *(Normal Mode)* then type **:w** and the most important to quit you type **:q**.  
+> Just remember: if you need to move between words or lines, you need to switch back to **Normal Mode** by pressing the ESC key.  
+> To save the file, type the **ESC** key to switch back to **Normal Mode** then type :w. The most important: to quit vim, type **:q** while in **Normal Mode**.

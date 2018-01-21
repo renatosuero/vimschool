@@ -1,19 +1,20 @@
 +++
 title = "Vim Modes"
-date =  2017-10-30T10:09:17-04:00
+date =  2018-01-21T08:51:17-04:00
 weight = 5
 +++
 
-The first thing that you need to know is, why Vim has modes... So when vim was created didn't exist GUI and mouse.
-Now let's think how I can write something or navigate in the lines... That's why you need to have modes and you need to know how to use it.  
-Let's go to understand theses modes.  
+The first thing that you need to know about vim is: Vim is a modal editor. This means that vim has different modes that can be used to interact with it.  
+If you are asking why, remember that when the original vi editor was created in 1976, there were no graphical interfaces (GUI) or mouse, and even displays were not as powerful as todays.  
+Now, in order to edit text or navigate around, you need to switch between the different modes.  
+Let's understand the different modes available in vim.  
 
 ------------
 
-- **Normal Mode**: *(as know as Command Mode)*, here is where you can do things like (copy,paste,find,replace) and execute commands like (:w to save,:q to quit). 
+- **Normal Mode**: *(a.k.a Command Mode)*: here is where you can do things like copy, paste, find, or replace, and execute commands like (:w to save,or :q to quit).
 - **Visual Mode**: here is where you can select text.   
 - **Insert Mode**: here is where you can edit your text.  
 
 ------------
 
-> An important tip, look at the bottom vim and you'll see the mode where you are.You will see **INSERT** or **VISUAL** on left side, when you won't see it's because you are in **NORMAL/COMMAND** mode.  
+> An important tip: look at the bottom left of vim's screen and you'll see which mode is currently in use. You can see **INSERT** or **VISUAL** for the respective modes, or when you don't see anything it means you are in **NORMAL/COMMAND** mode.  
