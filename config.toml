@@ -8,6 +8,8 @@ enableGitInfo = true
 # Build robots.txt file
 enableRobotsTXT = true
 
+googleAnalytics = "UA-113195880-1"
+
 # For search functionnality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
