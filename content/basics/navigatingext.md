@@ -1,9 +1,9 @@
 +++
 title = "Navigating Extended"
-date =  2017-10-30T10:09:28-04:00
+date =  2018-02-03T10:32:00-00:00
 weight = 7
 +++
-We have a lot of possibilities/keys to move into the files without need to use mouse. Because these keys and combinations that we don't leave our hands from keyboard.  
+We have a lot of possibilities/keys to move into the files without we need to use mouse. Because these keys and combinations that we don't leave our hands from keyboard.  
 We'll divide it in some parts, just to facilitate the structure.
 
 ##Screen or File
@@ -43,11 +43,50 @@ When you know the line that we need to go, we just need type the number and **G*
 
 
 ##Words or content
+Now let's see keys to navigate between words, these keys help us to move fast and mainly we don't need to use the mouse.  
 
-keys
-w,e,b
-f,t
-0,^,$
+Let's start with navigation into the line.  
+| Key     | Description                      |
+|---------|----------------------------------|
+| **^**   | Move to first char in begin line |
+| **0**   | Move to begin line               |
+| **$**   | Move to end line                 |
 
-###Miscellaneous
-gv to show the last selection
+
+Then let's navigate between words.  
+
+| Key      | Description                    |
+|----------|--------------------------------|
+| **w**    | Move to begin of next word     |
+| **e**    | Move to end of current word    |
+| **b**    | Move to begin of previous word |
+| **ge**   | Move to end of previous word   |
+
+Now we will show a great way to jump into the words. We can use the keys **f** or **t** to do it.  
+For example, in this line we type *ff*, the cursor will jump to first occurrence that it find(exactly in the char found). If we use *tf*, the behavior is almost equal, but now, the cursor will be before the char found(if you see this markdown, the cursor will be exactly in * before the first *f* found).    
+
+| Key       | Description                                  |
+|----- -----|----------------------------------------------|
+| **fc**    | Jump to next char found                      |
+| **Fc**    | Jump to previous char found                  |
+| **tc**    | Jump to next char found(go to previous char) |
+| **Tc**    | Jump to previous found (go to next char)     |
+
+Ok this is nice, but sometimes we need to repeat it, how can we do it?  
+
+| Key      | Description                  |
+|----------|------------------------------|
+| **;**    | Jump to next char found      |
+| **,**    | Jumpt to previous char found |
+
+We can jump using a word, and we can do it.  
+
+| Key      | Description                  |
+|----------|------------------------------|
+| **\***   | Jump to next word found      |
+| **#**    | Jumpt to previous word found |
+
+
+------------
+
+> Just remember: You can use numbers to define repetions.For example, you want to jump word and you use **w** you can do **2w** to jump to second occurence found.    
