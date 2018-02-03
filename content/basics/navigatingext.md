@@ -6,7 +6,7 @@ weight = 7
 We have a lot of possibilities/keys to move into the files without we need to use mouse. Because these keys and combinations that we don't leave our hands from keyboard.  
 We'll divide it in some parts, just to facilitate the structure.
 
-##Screen or File
+## Screen or File
 When we are working in big files, sometimes we are writing in the bottom of the screen. Vim has a solution for us =). Now we'll know the keys to move the screen.  
 
  Key      | Description                                       |
@@ -42,10 +42,11 @@ When you know the line that we need to go, we just need type the number and **G*
 > These commands will have different behavior when you execute in big or small files. I suggest that you open some small and big files, then test it to understand.
 
 
-##Words or content
+## Words or content
 Now let's see keys to navigate between words, these keys help us to move fast and mainly we don't need to use the mouse.  
 
 Let's start with navigation into the line.  
+
 | Key     | Description                      |
 |---------|----------------------------------|
 | **^**   | Move to first char in begin line |
@@ -66,7 +67,7 @@ Now we will show a great way to jump into the words. We can use the keys **f** o
 For example, in this line we type *ff*, the cursor will jump to first occurrence that it find(exactly in the char found). If we use *tf*, the behavior is almost equal, but now, the cursor will be before the char found(if you see this markdown, the cursor will be exactly in * before the first *f* found).    
 
 | Key       | Description                                  |
-|----- -----|----------------------------------------------|
+|-----------|----------------------------------------------|
 | **fc**    | Jump to next char found                      |
 | **Fc**    | Jump to previous char found                  |
 | **tc**    | Jump to next char found(go to previous char) |
