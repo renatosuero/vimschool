@@ -31,12 +31,6 @@ Vim extends the basic "vi" functionality with additional features, such as:
 
 So, if you are interested, jump to the first section and happy leaning!
 
----
-<div style="text-align: right">
-{{% button href="/introduction/" icon="fa fa-arrow-right" icon-position="right" %}}Introduction {{% /button %}}
-</div>
----
-
 ### Contributing
 
 Feedback, suggestions and contributions are welcome! If you would like to contribute to this project, please check the [github repo](https://github.com/renatosuero/vimschool). Create an issue or fork us and submit your PR! Thank you!
