@@ -2,7 +2,7 @@
 
 This is the project page for the `Vim School` website.
 
-You can see it online at: (https://www.vimschool.com)[https://www.vimschool.com]
+You can see it online at: [https://www.vimschool.com](https://www.vimschool.com)
 
 This project was born out of the excitment and willingness to share knowledge about Vim by two long time users: [Renato Suero](https://github.com/renatosuero) and [Ricardo Gerardi](https://github.com/rgerardi).
 
