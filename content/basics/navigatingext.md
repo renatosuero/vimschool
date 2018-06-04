@@ -3,8 +3,8 @@ title = "Navigating Extended"
 date =  2018-02-03T10:32:00-00:00
 weight = 7
 +++
-We have a lot of possibilities/keys to move into the files without we need to use mouse. Because these keys and combinations that we don't leave our hands from keyboard.  
-We'll divide it in some parts, just to facilitate the structure.
+We have a lot of possibilities/keys to move into the files without we need to use the mouse. Because these keys and combinations that we don't leave our hands from the keyboard.  
+We'll divide it into some parts, just to facilitate the structure.
 
 ## Screen or File
 When we are working in big files, sometimes we are writing in the bottom of the screen. Vim has a solution for us =). Now we'll know the keys to move the screen.  
@@ -16,7 +16,7 @@ When we are working in big files, sometimes we are writing in the bottom of the 
 | **zb**  | Move the screen to the bottom of the window       |
 
 
-Let's think, how many times we open a file and see that we need to change the last lines, but the editor open in the first line. For us Vim users this isn't a problem, because we have some keys to help us.  
+Let's think, how many times we open a file and see that we need to change the last lines, but the editor opens in the first line. For us Vim users this isn't a problem, because we have some keys to help us.  
 
  Key     | Description                                       |
 |--------|---------------------------------------------------|
@@ -25,7 +25,7 @@ Let's think, how many times we open a file and see that we need to change the la
 | **L**  | Move the cursor to the lowest line on the screen  |
 
 
-When we know that we want to go to begin/end of file, we can use these keys.  
+When we know that we want to go to begin/end of the file, we can use these keys.  
 
  Key      | Description                          |
 |---------|--------------------------------------|
@@ -36,7 +36,7 @@ When you know the line that we need to go, we just need type the number and **G*
 
  Key      | Description              |
 |---------|--------------------------|
-| **``**  | Return to previous place |
+| **``**  | Return to the previous place |
 | **''**  | Return to previous line  |
 
 > These commands will have different behavior when you execute in big or small files. I suggest that you open some small and big files, then test it to understand.
@@ -58,13 +58,13 @@ Then let's navigate between words.
 
 | Key      | Description                    |
 |----------|--------------------------------|
-| **w**    | Move to begin of next word     |
+| **w**    | Move to begin with next word     |
 | **e**    | Move to end of current word    |
-| **b**    | Move to begin of previous word |
-| **ge**   | Move to end of previous word   |
+| **b**    | Move to begin with the previous word |
+| **ge**   | Move to end of the previous word   |
 
 Now we will show a great way to jump into the words. We can use the keys **f** or **t** to do it.  
-For example, in this line we type *ff*, the cursor will jump to first occurrence that it find(exactly in the char found). If we use *tf*, the behavior is almost equal, but now, the cursor will be before the char found(if you see this markdown, the cursor will be exactly in * before the first *f* found).    
+For example, in this line we type *ff*, the cursor will jump to the first occurrence that it finds (exactly in the char found). If we use *tf*, the behavior is almost equal, but now, the cursor will be before the char found(if you see this markdown, the cursor will be exactly in * before the first *f* found).    
 
 | Key       | Description                                  |
 |-----------|----------------------------------------------|
@@ -78,16 +78,16 @@ Ok this is nice, but sometimes we need to repeat it, how can we do it?
 | Key      | Description                  |
 |----------|------------------------------|
 | **;**    | Jump to next char found      |
-| **,**    | Jumpt to previous char found |
+| **,**    | Jump to previous char found |
 
 We can jump using a word, and we can do it.  
 
 | Key      | Description                  |
 |----------|------------------------------|
 | **\***   | Jump to next word found      |
-| **#**    | Jumpt to previous word found |
+| **#**    | Jump to the previous word found |
 
 
 ------------
 
-> Just remember: You can use numbers to define repetions.For example, you want to jump word and you use **w** you can do **2w** to jump to second occurence found.    
+> Just remember: You can use numbers to define repetitions. For example, you want to jump word and you use **w** you can do **2w** to jump to the second occurrence found.    
