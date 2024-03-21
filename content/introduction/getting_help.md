@@ -8,7 +8,7 @@ To get started with Vim, let's discuss how you can get help. Vim has been around
 
 First of all, Vim ships with great documentation detailing its usage and commands. And best of all, you can quickly access all that information from Vim itself:
 
-To access help you need to be in **Command Mode** (more on modes in the following sections). For now, type the *ESC* key followed by *:* (collon character), then use one of the following keys:
+To access help you need to be in **Command Mode** (more on modes in the following sections). For now, type the *ESC* key followed by *:* (colon character), then use one of the following keys:
 
 | Key          | Description   																											|
 |--------------|--------------------------------------------------------------------|
