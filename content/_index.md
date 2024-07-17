@@ -16,7 +16,7 @@ Vim is a modern, flexible and powerful text editor that can be used to create an
 
 Vim stands for **Vi Im**proved as Vim originated from the famous "vi" text editor which was created in the 1970s for the original UNIX operating system. 
 
-Vim shares the same principles as "vi" and leaning the basic Vim commands and workflow will allow you to use "vi" as well should you encounter it. This is useful as, in general, some clone of "vi" is available in all UNIX like operating system such as Linux, BSD's and MacOS.
+Vim shares the same principles as "vi" and learning the basic Vim commands and workflow will allow you to use "vi" as well should you encounter it. This is useful as, in general, some clone of "vi" is available in all UNIX like operating system such as Linux, BSD's and MacOS.
 
 Vim extends the basic "vi" functionality with additional features, such as:
 
