@@ -3,7 +3,7 @@ title = "Navigating Extended"
 date =  2018-02-03T10:32:00-00:00
 weight = 7
 +++
-We have a lot of possibilities/keys to move into the files without we need to use the mouse. Because these keys and combinations that we don't leave our hands from the keyboard.  
+We have a lot of possibilities/keys to move into the files without needing to use the mouse. With these keys and combinations, we don't have to move our hands from the keyboard.  
 We'll divide it into some parts, just to facilitate the structure.
 
 ## Screen or File
